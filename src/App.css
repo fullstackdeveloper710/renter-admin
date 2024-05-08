@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white !important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.global-button {
+  background-color: #c8d736 !important;
+  color: #13556d !important;
+  font-size: 17px;
+}
+.login_background {
+  height: 100vh;
+  width: 100%;
+  background-image: url("/public/assets/background/property-back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  /* font-size: 18px !important; */
+}
+.ai-chatbot-support {
+  background-color: white;
+  box-shadow: 0px 3px 0px 0px white;
+  padding: 10px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  border-radius: 10px;
+  opacity: 10;
+}
+.ic--outline-expand-less {
+  height: 10px !important;
+  width: 10px !important;
+}
+.stepper-step {
+  background: rgb(238 243 193);
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.box-stepper-scale {
+  transform: scale(1);
+  transition: all 0.8s ease;
+  background-color: rgb(238 243 193);
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px #ccc;
+}
+.step-left-text {
+  border-radius: 50%;
+  background: white;
+  border: 5px solid rgb(0 153 161);
+  height: 45px;
+  width: 45px;
+  font-size: 12px;
+}
+.screen-transition {
+  transition: all 0.8s ease-in-out;
+}
