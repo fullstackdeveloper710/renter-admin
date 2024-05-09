@@ -1,12 +1,12 @@
-import { Card, Typography } from '@mui/material';
+import { Card, Typography } from "@mui/material";
 
 const CountCard = ({ count, title }) => {
   return (
     <Card
       sx={{
-        backgroundColor: '#13556d',
+        backgroundColor: "#13556d",
         height: 150,
-        color : "white"
+        color: "white",
       }}
     >
       <div className="px-3 d-flex justify-content-center flex-column mt-3">
